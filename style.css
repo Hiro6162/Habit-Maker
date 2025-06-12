@@ -1,0 +1,16 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+nav {
+  margin-bottom: 20px;
+}
+a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.foo {
+  
+  align-items: center;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <!--NAVIGATION-->
+  <header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--CONTACT-->
+  <main>
+    <section>
+        <form action="/submit" method="POST">
+            <fieldset>
+                <legend>Contact Us</legend>
+
+                <label for="name">Name:</label>
+                <input type="text" name="name" required><br><br>
+                
+                <label for="email">Email:</label>
+                <input type="email" name="email" required><br><br>
+                
+                <label for="message">Message:</label>
+                <textarea name="message" id="message" rows="4" cols="40" required></textarea><br><br>
+
+                <button type="submit">Send</button>
+            </fieldset>
+        </form>
+    </section>
+  </main>
+</body>
+</html>
